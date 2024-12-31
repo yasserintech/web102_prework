@@ -186,3 +186,13 @@ firstGameContainer.append(topGame);
 // do the same for the runner up item
 let runnerUp = top2[1].name;
 secondGameContainer.append(runnerUp);
+let searchBar = document.getElementById("search-bar");
+function search(event){
+    let query =  event.target.value.toLowerCase();
+    let filteredGames = GAMES_JSON.filter((game) => {
+        return game.name.toLowerCase().includes(query);
+    });
+    deleteChildElements(gamesContainer);
+    addGamesToPage(filteredGames);
+}
+searchBar.addEventListener("input", search);

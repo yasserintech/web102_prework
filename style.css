@@ -79,3 +79,18 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#search-bar {
+    width: 38%; 
+    padding: 0.5%; 
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 7px;
+    border-style: none;
+    height: 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
