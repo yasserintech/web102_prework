@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='./assets/Kapture 2024-12-31 at 01.36.03.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./assets/sea_monster_games.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap](https://getkap.co/) for macOS
